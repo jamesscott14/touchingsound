@@ -96,6 +96,31 @@ a:active {
 
 
 /* MAIN STYLES --------------------- */
+ .navbar ul { 
+    margin: 0; 
+    padding: 5px; 
+    border: 0;
+    list-style-type: none; 
+    background-color: #8B008B;
+    text-align:center; 
+    } 
+
+.navbar ul li {  
+    display: inline; 
+    text-align: center;
+    } 
+
+.navbar ul li a { 
+    text-decoration: none; 
+    padding: .2em 1em; 
+    color: white; 
+    background-color: #8B008B; 
+    } 
+
+.navbar ul li a:hover { 
+    color: #0EC6D7; 
+    background-color: #8B008B; 
+    } 
 
 .main-header {
   padding-top: 170px;
