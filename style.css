@@ -131,8 +131,32 @@ a:active {
     padding:16px 16px;
     } 
 
-.navbar li a:visited {
-  color:#fff;
+.search-form {
+  background:#8B008B;
+  float: right;
+  margin-right: 35px;
+  margin-top: -34px;
+  padding-left: 10px;
+  border-style: none;
+}
+
+.search-area {
+  background-color: #000;
+  border-style: none;
+  padding: 5px 10px;
+  background-color:#8B008B;
+  border-bottom: 2px solid #000; 
+}
+
+.button {
+  background-color: #610061;
+  color:#0EC6D7;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #b966b9;
 }
 
 
